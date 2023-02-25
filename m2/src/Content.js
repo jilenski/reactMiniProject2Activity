@@ -1,5 +1,6 @@
-import './Content.css';
+import './App.css';
 import{ useState } from 'react';
+import './assets/dist/css/bootstrap.min.css';
 
 const Content = () =>{
 		const [nameTest, setName] = useState ('Wd42P 123');
@@ -31,17 +32,17 @@ const Content = () =>{
 
 		
     return(
-        <main>
-            <p onDoubleClick={handleClick} className='mysample'>
+        <main className="px-3">
+            <p onDoubleClick={handleClick} className='lead mysample'>
             {nameTest}<br/>
 						{count}
             </p>
 
-						<button onClick={handleNameChanges}>Change Name</button><br/><br/>
+						<button className="btn btn-lg btn-light fw-bold border-white bg-white" onClick={handleNameChanges}>Change Name</button><br/><br/>
 
-						<button onClick={handleClick}>Button One</button>
-						<button onClick={ () => handleClick2 ('bob')}>Button Two</button>
-						<button onClick={ (e) => handleClick3 (e)}>Button Three 123</button>
+						<button className="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold" onClick={handleClick}>Button One</button>
+						<button className="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold" onClick={ () => handleClick2 ('bob')}>Button Two</button>
+						<button className="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold" onClick={ (e) => handleClick3 (e)}>Button Three 123</button>
         </main>
     )
 }
