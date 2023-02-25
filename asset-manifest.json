@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/reactMiniProject2Activity/m2/public/static/css/main.8ca5740b.css",
+    "main.js": "/reactMiniProject2Activity/m2/public/static/js/main.ef4f5768.js",
+    "static/media/logo.svg": "/reactMiniProject2Activity/m2/public/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/reactMiniProject2Activity/m2/public/index.html",
+    "main.8ca5740b.css.map": "/reactMiniProject2Activity/m2/public/static/css/main.8ca5740b.css.map",
+    "main.ef4f5768.js.map": "/reactMiniProject2Activity/m2/public/static/js/main.ef4f5768.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ca5740b.css",
+    "static/js/main.ef4f5768.js"
+  ]
+}
