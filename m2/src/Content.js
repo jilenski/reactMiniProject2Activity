@@ -8,7 +8,7 @@ const Content = () =>{
 		const [count, setCount] = useState(0);
 
     const handleNameChanges = () => {
-        const names = ['bob', 'juan', 'peter'];
+        const names = ['Bob', 'Juan', 'Peter'];
         const int = Math.floor(Math.random() * 3);
         // return names[int];
 				setName(names[int]);
